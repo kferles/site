@@ -152,7 +152,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .intro .intro-body .intro-text {
@@ -166,7 +166,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 50px;
     }
 
     .intro .intro-body .intro-text {
@@ -256,7 +256,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/img/gray-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -364,4 +364,20 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/*
+ * Stolen from Panos Sako's site (http://panossakkos.github.io/index.html#page-top) ^_^
+ */
+.img-me {
+    z-index: 100;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f1f1f1;
 }
