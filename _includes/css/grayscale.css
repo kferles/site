@@ -42,6 +42,12 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+
+    .img-me {
+        left: 50%;
+        width: 150px;
+        height: 150px;
+    }
 }
 
 a {
