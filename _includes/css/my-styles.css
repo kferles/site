@@ -1,0 +1,13 @@
+.paper {
+    text-align: left;
+    font-size: 200%
+}
+
+.paper > .author-lists {
+    font-size: 70%;
+    font-weight:normal
+}
+
+.paper > .fa {
+    font-size: 80%
+}
